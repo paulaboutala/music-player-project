@@ -1,17 +1,17 @@
 :root {
-  --green-50: rgb(254, 242, 255);
-  --green-100: #dbbcf5;
-  --green-200: #a978ed;
-  --green-300: #b34ce6;
-  --green-400: #a920df;
-  --green-500: #c91d59;
-  --green-600: #93169c;
-  --green-700: #701070;
-  --green-800: #430a3b;
-  --green-900: #d86096;
-  --green-950: #0e0316;
-  --green-1000: #e3096f;
-  --green-1000-25: #0b020940;
+  --pink-50: rgb(254, 242, 255);
+  --pink-100: #dbbcf5;
+  --pink-200: #a978ed;
+  --pink-300: #b34ce6;
+  --pink-400: #a920df;
+  --pink-500: #c91d59;
+  --pink-600: #93169c;
+  --pink-700: #701070;
+  --pink-800: #430a3b;
+  --pink-900: #d86096;
+  --pink-950: #0e0316;
+  --pink-1000: #e3096f;
+  --pink-1000-25: #0b020940;
 
   --transition-duration: 200ms;
   --transition-function: ease;
@@ -30,8 +30,8 @@
 }
 
 body {
-  background-color: var(--green-1000);
-  color: var(--green-50);
+  background-color: var(--pink-1000);
+  color: var(--pink-50);
 }
 
 .logo {
@@ -78,8 +78,8 @@ img {
   flex: 1;
   background-image: linear-gradient(
     to bottom,
-    var(--green-900),
-    var(--green-1000)
+    var(--pink-900),
+    var(--pink-1000)
   );
   display: flex;
   flex-direction: column;
@@ -142,7 +142,7 @@ img {
 }
 
 .single-item:hover {
-  background-color: var(--green-900);
+  background-color: var(--pink-900);
   text-decoration: none;
 }
 
@@ -175,7 +175,7 @@ img {
   font-size: 50px;
   right: 7.5px;
   bottom: 7.5px;
-  color: var(--green-500);
+  color: var(--pink-500);
   opacity: 0;
   transform: translateY(100%);
   transition-timing-function: var(--transition-function);
@@ -258,8 +258,8 @@ img {
   padding: 39px 25px;
   background-image: linear-gradient(
     to bottom,
-    var(--green-900),
-    var(--green-950)
+    var(--pink-900),
+    var(--pink-950)
   );
   display: flex;
   flex-direction: column;
@@ -302,7 +302,7 @@ img {
 }
 
 .song-item:hover {
-  background-color: var(--green-800);
+  background-color: var(--pink-800);
   text-decoration: none;
 }
 
@@ -358,8 +358,8 @@ img {
   border-top-right-radius: 15px;
   background-image: linear-gradient(
     to bottom,
-    var(--green-800),
-    var(--green-950)
+    var(--pink-800),
+    var(--pink-950)
   );
   border-top-left-radius: 15px;
   display: flex;
@@ -369,7 +369,7 @@ img {
 }
 
 .song__image-container {
-  box-shadow: 0 0 25px 10px var(--green-1000-25);
+  box-shadow: 0 0 25px 10px var(--pink-1000-25);
 }
 
 .song__bar {
@@ -453,7 +453,7 @@ img {
 
 .player__icon:hover {
   transform: scale(105%);
-  color: var(--green-300);
+  color: var(--pink-300);
 }
 
 .player__icon--play {
